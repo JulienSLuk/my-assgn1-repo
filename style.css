@@ -174,7 +174,7 @@ html{
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: lightsteelblue;
+    background: rgb(111, 156, 216);
 }
 
 
@@ -416,7 +416,7 @@ body{
 }
 
 
-
+/* contact me styling*/
 * {
     box-sizing: border-box;
   }
