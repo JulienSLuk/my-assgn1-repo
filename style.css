@@ -292,7 +292,7 @@ body{
     background: none;
 }
 
-/*neon*/
+/*neon effect*/
 :root {
   --clr-neon: hsl(190 90% 70%);
   --clr-bg: hsl(323 21% 16%);
@@ -479,13 +479,13 @@ body{
     width: 70%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 65%;
 }
 .skills-content .right .python::before{
     width: 80%;
 }
 .skills-content .right .csharp::before{
-    width: 50%;
+    width: 70%;
 }
 .skills-content .right .sql::before{
     width: 70%;
