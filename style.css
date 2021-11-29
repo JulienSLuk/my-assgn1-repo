@@ -146,12 +146,16 @@
   }
 
 /* After nav bar */
+body{
+  background: url(https://images.unsplash.com/photo-1518972734183-c5b490a7c637?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3w5MjkzNzk4MHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -162,7 +166,7 @@ html{
   overflow-x: hidden;
   scroll-padding-top: 9rem;
   scroll-behavior: smooth;
-  background: url(https://images.unsplash.com/photo-1518972734183-c5b490a7c637?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3w5MjkzNzk4MHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+  background: grey;
 }
 
 html::-webkit-scrollbar{
@@ -181,9 +185,6 @@ html::-webkit-scrollbar-thumb{
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(99, 174, 209);
 }
-
-
-
 
 
 /*similar content style codes */
@@ -490,9 +491,12 @@ section .title::after{
 /* contact me styling*/
 * {
   box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Zen Kurenaido', sans-serif;
 }
 
 input[type=text], select, textarea {
+  background: url("images/contactBanner.jpg");
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -505,7 +509,7 @@ label {
   display: inline-block;
 }
 
-input[type=submit] {
+input[type=submit] { 
   background-color: #4CAF50;
   color: white;
   padding: 12px 20px;
@@ -520,6 +524,7 @@ input[type=submit]:hover {
 }
 
 .container {
+  background: url("images/contactBanner.jpg");
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
