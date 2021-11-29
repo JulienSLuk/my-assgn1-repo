@@ -16,7 +16,6 @@
             <ul class="nav__links">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Software Proficiency</a></li>
-                <li><a href="#">My Journey</a></li>
             </ul>
         </nav>
         <a class="cta" href="#">Contact</a>
@@ -28,11 +27,8 @@
         <div class="overlay__content">
             <a href="#">About</a>
             <a href="#">Software Proficiency</a>
-            <a href="#">My Journey</a>
         </div>
     </div>
-    <script type="text/javascript" src="assgn1.js"></script>
-
 
     <!-- home section start -->
     <section class="home" id="home">
@@ -117,58 +113,61 @@
 
 
     <!-- contact section start -->
-    <h2>Contact Me Form</h2>
-    <p>Drop a message!</p>
-    
-    <div class="container">
-      <form action="/action_page.php">
-      <div class="row">
-        <div class="col-25">
-          <label for="fname">First Name</label>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Me Form</h2>
+            <p>Drop a message!</p>
+                <form action="/action_page.php">
+                <div class="row">
+                    <div class="flnamelabel-25"> <!-- first and last name label-->
+                    <label for="fname">First Name</label>
+                    </div>
+                    <div class="inputparticular-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="flnamelabel-25">
+                    <label for="lname">Last Name</label>
+                    </div>
+                    <div class="inputparticular-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="flnamelabel-25">
+                    <label for="topic">Topic</label>
+                    </div>
+                    <div class="inputparticular-75">
+                    <select id="topic" name="topic">
+                        <option value="feedback">Feedback</option>
+                        <option value="query">Query</option>
+                        <option value="general">General</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="flnamelabel-25">
+                    <label for="subject">Subject</label>
+                    </div>
+                    <div class="inputparticular-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+                </form>
         </div>
-        <div class="col-75">
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-25">
-          <label for="lname">Last Name</label>
-        </div>
-        <div class="col-75">
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-25">
-          <label for="topic">Topic</label>
-        </div>
-        <div class="col-75">
-          <select id="topic" name="topic">
-            <option value="feedback">Feedback</option>
-            <option value="query">Query</option>
-            <option value="general">General</option>
-          </select>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-25">
-          <label for="subject">Subject</label>
-        </div>
-        <div class="col-75">
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        </div>
-      </div>
-      <br>
-      <div class="row">
-        <input type="submit" value="Submit">
-      </div>
-      </form>
-    </div>
+    </section>
 
 
     <!-- footer section start -->
     <footer>
         <span>Created By <a href="https://www.linkedin.com/in/julien-setiawan-lukman-532034211/">JulienSLuk</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
+
+    <script type="text/javascript" src="assgn1.js"></script>
 </body>
 </html>
