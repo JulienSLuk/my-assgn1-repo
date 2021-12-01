@@ -10,3 +10,9 @@ menuOpen.addEventListener("click", () => {
 menuClose.addEventListener("click", () => {
   overlay.classList.remove("overlay--active");
 });
+
+
+function isNotEmpty(value) {
+  if (value == null || typeof value == 'undefined' ) return false;
+  return (value.length > 0);
+ }

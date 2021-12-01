@@ -16,7 +16,7 @@
     justify-content: space-between;
     padding:1.5rem 7%;
     border-bottom: var(--border);
-    position: fixed;
+    position: fixed;  /*testing exit button, uncomment when done*/
     top:0; left: 0; right: 0;
     z-index: 1000;
     background-color: #24252a;
@@ -121,10 +121,10 @@
   .overlay a:focus {
     color: #0088a9;
   }
-  .overlay .close {
+  .overlay .close { /*shift the exit cross*/
     position: absolute;
-    top: 20px;
-    right: 45px;
+    bottom: 20px;
+    left: 45px;
     font-size: 60px;
     color: #edf0f1;
   }
@@ -135,8 +135,8 @@
     }
     .overlay .close {
       font-size: 40px;
-      top: 15px;
-      right: 35px;
+      bottom: 15px;
+      left: 35px;
     }
   }
   
@@ -161,6 +161,7 @@ body{
     text-decoration: none;
 }
 
+/* Nav button transition to section selected - smooth*/
 html{
     scroll-behavior: smooth;
 }
@@ -171,7 +172,7 @@ html{
   overflow-x: hidden;
   scroll-padding-top: 9rem;
   scroll-behavior: smooth;
-  background: grey;
+  background: grey; /* change to a lighter shade*/
 }
 
 html::-webkit-scrollbar{
