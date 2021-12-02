@@ -11,25 +11,20 @@ In this project, an appropriate, suitable and aesthetic webpage was build to sho
 This website is focused on companys looking for a developer. As an employer, he or she already has a lot of things on their hand, they would want to look at portfolio webpage that gives them the information at hand that they are looking for to aid them in their selection of the company's new developer. In this project, the aim was to give clear and concise relevant particulars about me for them to easily make their decision, but not minimizing on the aesthetics and design of the webpage in the process of doing so.
 
 
-##HALP
+- As a user type, I want to tap on a button in the convenient navigation bar, so that I can access the sections of the page.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to tap on a button in the convenient nav bar, so that I can access the sections of the page.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
 
 ![](images/Adobe XD Wireframe/1920.png)
 ![](images/Adobe XD Wireframe/mob.png)
 
+XD Share URL: https://xd.adobe.com/view/94ab1c74-228f-452f-af55-1053f032c823-c1f8/
+
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Feature 1 - allows users to move to sections of the webpage by having them click on buttons at the top of the screen, the navigation bar, which would follow throughout the page for ease of access
+- Feature 2 - When viewing on a smaller device like a mobile phone, the navigation bar would collpase into a single menu button. When clicked, options to select where you want to be at on the webpage would be automatically scrolled to smoothly for the user. Clicking the cross (exit) button allows user to exit the menu and view the section they desire.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
@@ -38,31 +33,40 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [vscode](https://jquery.com)
+- [vscode](https://code.visualstudio.com/)
     - The project uses **VS CODE EDITOR** to write the code.
 
 - [HTML](html)
     - The project uses **HTML** to build the frame of the website.
-    
 
+- [css](css)
+    - The project uses **CSS** to design the website.
+
+- [js](js)
+    - The project uses **JS** to allow users to interact with the website.\
+
+- [adobeXD](adobeXD)
+    - The project uses **adobeXD** to allow users to interact with the website.
+    
 
 ## Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+1. Mobile Nav Menu:
+    1. Go to the Menu made for smaller devices
+    2. Try to tap on the menu to see if the options cleading to sections come out smoothly
+    3. Try to click on an option and see if the scroll bar moves accordingly
+    4. Try to click the cross exit button to see if you have arrived at the section you selected
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
+On different browsers and sizes, the page would adjust automatically to best fit the screen. For example, on a big screen, the image and content would be placed side by side. However, when reduced to a smaller screen, the image would move above the content to allow spacial placement.
+
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+----text-----unanswered------
+
 
 ## Credits
 
