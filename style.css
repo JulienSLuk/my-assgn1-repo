@@ -16,7 +16,7 @@
     justify-content: space-between;
     padding:1.5rem 7%;
     border-bottom: var(--border);
-    position: fixed;  /*testing exit button, uncomment when done*/
+    position: fixed;  
     top:0; left: 0; right: 0;
     z-index: 1000;
     background-color: #24252a;
@@ -246,7 +246,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/used/navBanner.jpg") no-repeat center;
+    background: url("images/navBanner.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
