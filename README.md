@@ -44,7 +44,7 @@ XD Share URL: https://xd.adobe.com/view/94ab1c74-228f-452f-af55-1053f032c823-c1f
     - The project uses **CSS** to design the website.
 
 - [js](js)
-    - The project uses **JS** to allow users to interact with the website.\
+    - The project uses **JS** to allow users to interact with the website.
 
 - [adobeXD](https://www.adobe.com/sg/products/xd.html)
     - The project uses **adobeXD** to allow users to interact with the website.
